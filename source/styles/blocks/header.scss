@@ -1,7 +1,6 @@
 .header {
   background-color: #ffffff;
   color: #000000;
-  padding: 10px 15px;
   font-family: "Montserrat Regular", sans-serif;
   padding: 10px 10px 0 15px;
 }
@@ -31,6 +30,6 @@
 
 @media (min-width: $desktop-width) {
   .header__wrapper {
-    padding: 20px 40px 20px;
+    padding: 20px 40px;
   }
 }

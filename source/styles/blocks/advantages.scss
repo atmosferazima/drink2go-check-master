@@ -30,7 +30,7 @@
   list-style-type: none;
 }
 
-.advantages__item__title {
+.advantages__item-title {
   margin: 0;
   padding-bottom: 4px;
 }
@@ -42,7 +42,7 @@
   line-height: 21px;
 }
 
-.advantages__item__title--speed::before {
+.advantages__item-title--speed::before {
   content: "";
   display: block;
   background-image: url("../../icons/stack.svg#clock");
@@ -56,7 +56,7 @@
   left: 134px;
 }
 
-.advantages__item__title--small::before {
+.advantages__item-title--small::before {
   content: "";
   display: block;
   background-image: url("../../icons/stack.svg#pocket");
@@ -70,7 +70,7 @@
   left: 134px;
 }
 
-.advantages__item__title--energy::before {
+.advantages__item-title--energy::before {
   content: "";
   display: block;
   background-image: url("../../icons/stack.svg#flash");
@@ -84,7 +84,7 @@
   left: 134px;
 }
 
-.advantages__item__title--eco::before {
+.advantages__item-title--eco::before {
   content: "";
   display: block;
   background-image: url("../../icons/stack.svg#leaf");
@@ -115,8 +115,8 @@
   }
 
   .advantages__wrapper {
-    flex-direction: row;
     flex-flow: wrap;
+    flex-direction: row;
     gap: 59px 30px;
   }
 
@@ -126,7 +126,7 @@
     padding-left: 82px;
   }
 
-  .advantages__item__title {
+  .advantages__item-title {
     font-size: 24px;
     padding-bottom: 19px;
   }
@@ -136,23 +136,67 @@
     line-height: 22px;
   }
 
-  .advantages__item__title--speed::before {
+  .advantages__item-title--speed::before {
     top: 1180px;
     left: 30px;
   }
 
-  .advantages__item__title--small::before {
+  .advantages__item-title--small::before {
     top: 1176px;
     left: 399px;
   }
 
-  .advantages__item__title--energy::before {
+  .advantages__item-title--energy::before {
     top: 1320px;
     left: 30px;
   }
 
-  .advantages__item__title--eco::before {
+  .advantages__item-title--eco::before {
     top: 1324px;
     left: 399px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages {
+    font-weight: 400;
+  }
+
+  .advantages__wrapper {
+    gap: 6px;
+  }
+
+  .advantages__title {
+    padding-bottom: 162px;
+  }
+
+  .advantages__item {
+    width: 345px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .advantages__item-title {
+    padding-bottom: 16px;
+  }
+
+  .advantages__item-title--speed::before {
+    top: 1058px;
+    left: 173px;
+  }
+
+  .advantages__item-title--small::before {
+    top: 1058px;
+    left: 520px;
+  }
+
+  .advantages__item-title--energy::before {
+    top: 1058px;
+    left: 868px;
+  }
+
+  .advantages__item-title--eco::before {
+    top: 1058px;
+    left: 1215px;
   }
 }

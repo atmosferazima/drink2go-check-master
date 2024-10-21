@@ -1,74 +1,74 @@
 .nav-icons__list {
-    margin: 0;
-    display: flex;
-    flex-flow: wrap;
-    gap: 43px;
-    align-items: center;
-    padding: 12px 0 0 110px;
+  margin: 0;
+  display: flex;
+  flex-flow: wrap;
+  gap: 43px;
+  align-items: center;
+  padding: 12px 0 0 110px;
 }
 
 .nav-icons__item {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .nav-icons__item--user {
-    content: "";
-    display: block;
-    background-image: url("../../icons/stack.svg#user");
-    background-repeat: no-repeat;
-    background-size: 16px 16px;
-    background-position: left;
-    width: 16px;
-    height: 16px;
+  content: "";
+  display: block;
+  background-image: url("../../icons/stack.svg#user");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left;
+  width: 16px;
+  height: 16px;
 }
 
 .nav-icons__item--busket {
-    content: "";
-    display: block;
-    background-image: url("../../icons/stack.svg#busket");
-    background-repeat: no-repeat;
-    background-size: 16px 16px;
-    background-position: left;
-    width: 16px;
-    height: 16px;
+  content: "";
+  display: block;
+  background-image: url("../../icons/stack.svg#busket");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left;
+  width: 16px;
+  height: 16px;
 }
 
 .nav-icons__item--burger {
-    content: "";
-    display: block;
-    background-image: url("../../icons/stack.svg#burger");
-    background-repeat: no-repeat;
-    background-size: 17px 34px;
-    background-position: left;
-    width: 21px;
-    height: 14px;
+  content: "";
+  display: block;
+  background-image: url("../../icons/stack.svg#burger");
+  background-repeat: no-repeat;
+  background-size: 17px 34px;
+  background-position: left;
+  width: 21px;
+  height: 14px;
 }
 
 @media (min-width: $tablet-width) {
-    .nav-icons__list {
-        padding: 12px 0 0 102px;
-    }
+  .nav-icons__list {
+    padding: 12px 0 0 102px;
+  }
 
-    .nav-icons__item--burger {
-        display: none;
-    }
+  .nav-icons__item--burger {
+    display: none;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .nav-icons__list {
-        padding: 9px 0 0 202px;
-        gap: 82px;
-    }
-    
-    .nav-icons__item {
-        padding: 0 25px;
-        height: 20px;
-    }
+  .nav-icons__list {
+    padding: 9px 0 0 202px;
+    gap: 82px;
+  }
 
-    .nav-icons__link {
-        display: contents;
-        font-size: 12px;
-        text-transform: uppercase;
-        color: #000000;
-    }
+  .nav-icons__item {
+    padding: 0 25px;
+    height: 20px;
+  }
+
+  .nav-icons__link {
+    display: contents;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000000;
+  }
 }

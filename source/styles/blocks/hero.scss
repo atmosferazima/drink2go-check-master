@@ -1,141 +1,142 @@
 .hero {
-    background-color: #f3ebe1;
-    font-family: "Montserrat Regular", sans-serif;
-    padding-bottom: 40px;
+  background-color: #f3ebe1;
+  font-family: "Montserrat Regular", sans-serif;
+  padding-bottom: 40px;
 }
 
 .hero__flat-white {
-    margin: 20px 0 5px 20px;
+  margin: 20px 0 5px 20px;
 }
 
 
 .hero__title {
-    font-family: "Montserrat Bold", sans-serif;
-    font-weight: 700;
-    margin: 0;
-    font-size: 37px;
-    padding: 6px 38px 9px;
-    line-height: 48px;
-    text-align: center;
+  font-family: "Montserrat Bold", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  font-size: 37px;
+  padding: 6px 38px 9px;
+  line-height: 48px;
+  text-align: center;
 }
 
 .hero__text {
-    font-size: 14px;
-    margin: 0;
-    text-align: center;
-    line-height: 20px;
-    padding: 0 20px 20px;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+  line-height: 20px;
+  padding: 0 20px 20px;
 }
 
 .hero__special-offer {
-    display: flex;
-    align-items: center;
-    padding: 0 0 21px 45px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 21px 45px;
 }
 
-.hero__special-offer__flex {
-    display: flex;
-    gap: 5px;
+.hero__special-offer-flex {
+  display: flex;
+  gap: 5px;
 }
 
 .hero__no-price {
-    content: "";
-    display: block;
-    background-image: url("../../icons/stack.svg#old-price");
-    background-repeat: no-repeat;
-    background-size: 40px 32px;
-    background-position: left;
-    width: 40px;
-    height: 32px;
+  content: "";
+  display: block;
+  background-image: url("../../icons/stack.svg#old-price");
+  background-repeat: no-repeat;
+  background-size: 40px 32px;
+  background-position: left;
+  width: 40px;
+  height: 32px;
 }
 
 .hero__price {
-    content: "";
-    display: block;
-    background-image: url("../../icons/stack.svg#price");
-    background-repeat: no-repeat;
-    background-size: 51px 32px;
-    background-position: left;
-    width: 51px;
-    height: 32px;
+  content: "";
+  display: block;
+  background-image: url("../../icons/stack.svg#price");
+  background-repeat: no-repeat;
+  background-size: 51px 32px;
+  background-position: left;
+  width: 51px;
+  height: 32px;
 }
 
 .hero__button {
-    text-align: center;
-    margin-left: 21px;
-    padding: 10px 20px;
+  text-align: center;
+  margin-left: 21px;
+  padding: 10px 20px;
 }
 
 @media (min-width: $tablet-width) {
-    .hero {
-        position: relative;
-        min-height: 640px;
-        margin-bottom: 198px;
-    }
+  .hero {
+    position: relative;
+    min-height: 640px;
+    margin-bottom: 198px;
+  }
 
-    .hero__flat-white {
-        margin: 0;
-        position: absolute;
-        top: 352px;
-        left: 19%;
-    }
+  .hero__flat-white {
+    margin: 0;
+    position: absolute;
+    top: 352px;
+    left: 19%;
+  }
 
-    .hero__slogan {
-        padding: 59px 10px 20px;
-    }
+  .hero__slogan {
+    padding: 59px 10px 20px;
+  }
 
-    .hero__title {
-        padding-bottom: 38px;
-        font-size: 58px;
-        line-height: 37px;
-    }
+  .hero__title {
+    padding-bottom: 38px;
+    font-size: 58px;
+    line-height: 37px;
+  }
 
-    .hero__text {
-        font-size: 20px;
-        line-height: 32px;
-        margin: 0 76px 0 75px;
-    }
+  .hero__text {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0 76px 0 75px;
+  }
 
-    .hero__special-offer {
-        padding: 0 0 21px 269px;
-    }
+  .hero__special-offer {
+    padding: 0 0 21px 269px;
+  }
 }
 
 @media (min-width: $desktop-width) {
-    .hero {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 13px;
-        min-height: 713px;
-    }
+  .hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 13px;
+    min-height: 713px;
+    margin-bottom: 52px;
+  }
 
-    .hero__flat-white {
-        top: 30px;
-        left: 105px;
-    }
+  .hero__flat-white {
+    top: 30px;
+    left: 105px;
+  }
 
-    .hero__container {
-        padding-top: 125px;
-        text-align: left;
-    }
+  .hero__container {
+    padding-top: 125px;
+    text-align: left;
+  }
 
-    .hero__slogan {
-        padding: 54px 11px 20px 0;
-        text-align: left;
-    }
+  .hero__slogan {
+    padding: 54px 11px 20px 0;
+    text-align: left;
+  }
 
-    .hero__title {
-        text-align: left;
-        padding-left: 0;
-    }
+  .hero__title {
+    text-align: left;
+    padding-left: 0;
+  }
 
-    .hero__text {
-        margin: 0 149px 0 0;
-        text-align: left;
-        padding: 0 0 41px 0;
-    }
+  .hero__text {
+    margin: 0 149px 0 0;
+    text-align: left;
+    padding: 0 0 41px;
+  }
 
-    .hero__special-offer {
-        padding: 0;
-    }
+  .hero__special-offer {
+    padding: 0;
+  }
 }
