@@ -1,0 +1,36 @@
+.header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 15px;
+  font-family: "Montserrat Regular", sans-serif;
+  padding: 10px 10px 0 15px;
+}
+
+.header__wrapper {
+  display: flex;
+  padding-bottom: 8px;
+}
+
+.header__logo {
+  padding: 2px 0 0 13px;
+}
+
+@media (min-width: $tablet-width) {
+  .header {
+    padding: 0;
+  }
+
+  .header__wrapper {
+    padding: 20px;
+  }
+
+  .header__logo {
+    padding: 0 88px 0 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header__wrapper {
+    padding: 20px 40px 20px;
+  }
+}

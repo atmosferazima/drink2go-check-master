@@ -1,0 +1,21 @@
+.logo {
+  display: block;
+}
+
+.logo__text {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .logo {
+    text-decoration: none;
+    display: flex;
+  }
+
+  .logo__text {
+    display: block;
+    color: #000000;
+    font-size: 12px;
+    padding: 4px 95px 0 20px;
+  }
+}

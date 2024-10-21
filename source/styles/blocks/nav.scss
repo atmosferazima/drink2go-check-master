@@ -1,0 +1,54 @@
+.nav {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.nav__list {
+  list-style-type: none;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav__item {
+  color: #000000;
+  font-family: "Montserrat Regular", sans-serif;
+}
+
+.nav__link {
+  text-decoration: none;
+}
+
+.nav-icons__link {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .nav {
+    display: flex;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat Regular", sans-serif;
+    gap: 43px;
+  }
+
+  .nav__link {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+    .nav__list {
+        gap: 63px;
+    }
+}
